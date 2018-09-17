@@ -1,7 +1,14 @@
 
 ## express-multipart-file-parser 
 
-Use `express-multipart-file-parser` to upload files and handle other text files 
+Use `express-multipart-file-parser` to upload files and handle other text fields
+
+# Receive file like this
+ `req.files[0]` it recieves file in an array even if its just single file
+
+ # Text fields
+
+ `req.body.fieldName`
 
 ## Code
 
